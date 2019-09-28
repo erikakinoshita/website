@@ -57,7 +57,7 @@ localhost:3000でいけるお。
 テンプレートの大枠は`/resources/views/layouts/app.blade.php`なので、共通化したいものはここに入れてください！
 念の為、ベタ打ち(2019/09/22 記載)
 ```
-!doctype html>
+<!doctype html>
 <html {!! get_language_attributes() !!}>
   @include('partials.head') →partials/deadを表示するよ
   <body @php body_class() @endphp>
