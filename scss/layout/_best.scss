@@ -1,0 +1,482 @@
+@media screen and (min-width: 751px){
+
+/*display_none*/
+	.sp {
+    	display: none !important;
+    }
+  	.best-page{
+  		width: 70%;
+  		margin: 0 auto;
+  		height: 1500px;
+  		display: block;
+  		& h1{
+  			text-align: left;
+	  		font-size: $size24px;
+	  		font-family: "ヒラギノ明朝 Pro";
+	  		border-bottom: double #313131;
+	  		padding: 20px 0;
+	  		margin-top: 50px;
+	  		margin-bottom: 50px;
+	  	}
+  		&-main{
+  			width: 60%;
+  			display: inline-block;
+  			float: left;
+			.article{
+		        width: 100%;
+		        height: 75px;
+		        box-sizing: border-box;
+		        text-align: justify;
+		        margin-bottom: 10px;
+		        float: left;
+		        &__img{
+		          width: 96px;
+		          height: 64px;
+		          margin-bottom: 14px;
+		        }
+		        .detail{
+		          display: inline-block;
+		          padding-left: 15px;
+		          letter-spacing: 0px;
+		          & p{
+		            font-family: Helvetica;
+		            font-size: $size14px;
+		            line-height: 3;
+		            display: inline-block;
+		          }
+		          & h2{
+		            font-family: "ヒラギノ明朝 Pro";
+		            font-size: $size14px;
+		          }
+		          & categiry__tag{
+		          	display: inline-block;
+		          }
+		        }
+		    }
+
+		}
+		&-sidebar{
+			width: 40%;
+			display: inline-block;
+			float: right;
+			.category{
+				background-color: #F8F8F8;
+				width: 226px;
+				height: 230px;
+				text-align: left;
+				border-radius: 2px;
+				display: block;
+				margin: 0 auto;
+				margin-bottom: 50px;
+				& h3{
+				  font-size: $size14px;
+	  			  font-family: "ヒラギノ明朝 Pro";
+	  			  padding-left: 20px;
+	  			  padding-top: 20px;
+	  			  padding-bottom: 20px;
+
+				}
+				& a{
+				  display: block;
+				  font-size: $size12px;
+	  			  font-family: "Times";
+	  			  padding-left: 30px;
+	  			  padding-bottom: 15px;
+	  			  font-weight: bold;
+	  			  & span{
+	  			  	font-size: $size12px;
+	  			  	font-family: "Times";
+	  			  	color: white;
+
+	  			  }
+	  			  .category-mens{
+	  			  	width: 59px;
+	  			  	height: 19px;
+	  			  	background-color: #102348;
+	  			  	border-radius: 2px;
+	  			  	padding: 5px 18px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+	  			  }
+	  			  .category-ladies{
+	  			  	width: 59px;
+	  			  	height: 19px;
+	  			  	background-color: #D32352;
+	  			  	border-radius: 2px;
+	  			  	padding: 5px 15px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+				  }
+				  .category-works{
+	  			  	width: 59px;
+	  			  	height: 19px;
+	  			  	background-color: #D5D50B;
+	  			  	border-radius: 2px;
+	  			  	padding: 5px 18px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+				  }
+				  .category-best{
+	  			  	width: 59px;
+	  			  	height: 19px;
+	  			  	background-color: #0A7946;
+	  			  	border-radius: 2px;
+	  			  	padding: 5px 23px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+				  }
+				  .category-news{
+	  			  	width: 59px;
+	  			  	height: 19px;
+	  			  	background-color: #E63500;
+	  			  	border-radius: 2px;
+	  			  	padding: 5px 20px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+
+				  }
+				}
+			}
+			
+			.sns-timeline{
+				width: 226px;
+				height: 230px;
+				display: block;
+				margin: 0 auto;
+				margin-bottom: 50px;
+				.facebook{
+			        box-shadow:  0 0 8px gray;
+			    }
+			    .twitter{
+			        box-shadow:  0 0 8px gray;
+			        margin-top: 30px;
+			    }
+
+			}
+		}
+	  	
+	}
+	.tag1{
+	  	width: 59px;
+	  	height: 19px;
+	  	background-color: #102348;
+	  	border-radius: 2px;
+	  	padding: 5px 18px;
+		margin-right: 8px;
+		font-size: $size12px;
+	  	font-family: "Times";
+	  	color: white;
+	  	letter-spacing: 1px;
+	}
+	.tag2{
+	  	width: 59px;
+	  	height: 19px;
+	  	background-color: #D32352;
+	  	border-radius: 2px;
+	  	padding: 5px 15px;
+		margin-right: 8px;
+		font-size: $size12px;
+	  	font-family: "Times";
+	  	color: white;
+	  	letter-spacing: 1px;
+  	}
+  	.tag3{
+	  	width: 59px;
+	  	height: 19px;
+	  	background-color: #D5D50B;
+	  	border-radius: 2px;
+	  	padding: 5px 18px;
+		margin-right: 8px;
+		font-size: $size12px;
+	  	font-family: "Times";
+	  	color: white;
+	  	letter-spacing: 1px;
+	}
+  	.tag4{
+	  	width: 59px;
+	  	height: 19px;
+	  	background-color: #0A7946;
+	  	border-radius: 2px;
+	  	padding: 5px 23px;
+		margin-right: 8px;
+		font-size: $size12px;
+	  	font-family: "Times";
+	  	color: white;
+	  	letter-spacing: 1px;
+    }
+  	.tag5{
+	  	width: 59px;
+	  	height: 19px;
+	  	background-color: #E63500;
+	  	border-radius: 2px;
+	  	padding: 5px 20px;
+		margin-right: 8px;
+		font-size: $size12px;
+	  	font-family: "Times";
+	  	color: white;
+	  	letter-spacing: 1px;
+  	}
+  	.pagination a {
+		padding: 8px 20px;
+		display: inline-block;
+		background-color: #EFEFEF;
+		font-size: $size20px;
+		font-family: Times;
+		font-weight: bold;
+		text-decoration: none;
+		margin: 0 5px;
+	}
+		
+		.pagination span {
+		padding: 1px 8px;
+		display: inline-block;
+		}
+		.pagination span.current {
+		color: #ffffff;
+		font-size: $size20px;
+		font-family: Times;
+		font-weight: bold;
+		background-color: #0B0B0B;
+		outline: 1px solid white; /* 線幅、線のスタイル、カラー */
+		outline-offset: -5px; 
+		padding: 8px 20px;
+		margin: 0 5px;
+		box-sizing:border-box;
+		}
+		 
+		.pagination {
+		position:relative !important;     
+		overflow: hidden;
+		margin-top: 40px;
+		margin-bottom: 20px;  
+		text-align: center;
+		clear: both;
+		background-color: transparent;
+		} 
+	.pagination h2.screen-reader-text { display: none; }
+}
+@media screen and (max-width: 750px){
+	.best-page{
+  		width: 90%;
+  		margin: 0 auto;
+  		height: 2500px;
+  		display: block;
+  		& h1{
+  			text-align: left;
+	  		font-size: $size24px;
+	  		font-family: "ヒラギノ明朝 Pro";
+	  		border-bottom: double #313131;
+	  		padding: 20px 0;
+	  		margin-top: 50px;
+	  		margin-bottom: 5px;
+	  	}
+	  	.page-best-about{
+	  		width: 90%;
+	  		padding-bottom: 30px;
+	  		border-bottom: double #313131;
+	  		display: inline-block;
+	  		margin-bottom: 20px;
+	  		& img{
+	  			display: inline-block;
+	  			width: 180px;
+	  			height: 124px;
+	  		}
+	  		& p{
+	  			float: left;
+	  			display: inline-block;
+	  			width: 100%;
+	  			font-family: "ヒラギノ明朝 Pro";
+		        font-size: $size12px;
+		        text-align: left;
+		        line-height: 1.5;
+	  		}
+	  	}
+  		&-main{
+  			width: 90%;
+  			height: 1000px;
+  			display: block;
+  			margin: 0 auto;
+			.article{
+		        width: 100%;
+		        height: 75px;
+		        box-sizing: border-box;
+		        text-align: justify;
+		        margin-bottom: 10px;
+		        float: left;
+		        &__img{
+		          width: 96px;
+		          height: 64px;
+		          float: left;
+		        }
+		        .detail{
+		          width: 57%;
+		          height: 60px;
+		          display: inline-block;
+		          padding-left: 10px;
+		          letter-spacing: 0px;
+		          & p{
+		            font-family: Helvetica;
+		            font-size: $size12px;
+		            line-height: 1;
+		            display: inline-block;
+		          }
+		          & h2{
+		            font-family: "ヒラギノ明朝 Pro";
+		            font-size: $size12px;
+		            line-height: 1.2;
+		          }
+		          & categiry__tag{
+		          	display: inline-block;
+		          }
+		        }
+		    }
+
+		}
+		&-sidebar{
+			width: 80%;
+			display: block;
+			margin: 0 auto;
+			.category{
+				background-color: #F8F8F8;
+				width: 226px;
+				height: 230px;
+				text-align: left;
+				border-radius: 2px;
+				display: block;
+				margin: 0 auto;
+				margin-bottom: 50px;
+				& h3{
+				  font-size: $size14px;
+	  			  font-family: "ヒラギノ明朝 Pro";
+	  			  padding-left: 20px;
+	  			  padding-top: 20px;
+	  			  padding-bottom: 20px;
+
+				}
+				& a{
+				  display: block;
+				  font-size: $size12px;
+	  			  font-family: "Times";
+	  			  padding-left: 30px;
+	  			  padding-bottom: 15px;
+	  			  font-weight: bold;
+	  			  & span{
+	  			  	font-size: $size12px;
+	  			  	font-family: "Times";
+	  			  	color: white;
+
+	  			  }
+	  			  .category-mens{
+	  			  	background-color: #102348;
+	  			  	border-radius: 2px;
+	  			  	padding: 0px 10px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+    				font-size: $size11px;
+	  			  }
+	  			  .category-ladies{
+	  			  	background-color: #D32352;
+	  			  	border-radius: 2px;
+	  			  	padding: 3px 7px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+    				font-size: $size11px;
+				  }
+				  .category-works{
+	  			  	background-color: #D5D50B;
+	  			  	border-radius: 2px;
+	  			  	padding: 3px 10px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+    				font-size: $size11px;
+				  }
+				  .category-best{
+	  			  	background-color: #0A7946;
+	  			  	border-radius: 2px;
+	  			  	padding: 3px 14px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+    				font-size: $size11px;
+				  }
+				  .category-news{
+	  			  	background-color: #E63500;
+	  			  	border-radius: 2px;
+	  			  	padding: 3px 12px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+    				font-size: $size11px;
+
+				  }
+				}
+			}
+			
+			.sns-timeline{
+				width: 226px;
+				height: 230px;
+				display: block;
+				margin: 0 auto;
+				margin-bottom: 50px;
+				.facebook{
+			        box-shadow:  0 0 8px gray;
+			    }
+			    .twitter{
+			        box-shadow:  0 0 8px gray;
+			        margin-top: 30px;
+			    }
+
+			}
+		}
+	  	
+	}
+  	.tag4{
+	  	background-color: #0A7946;
+	  	border-radius: 2px;
+	  	padding: 3px 14px;
+		margin-right: 8px;
+		letter-spacing: 1px;
+		font-size: $size11px;
+		font-family: "Times";
+		display: inline-block;
+		color: white;
+  	}
+  	.pagination a {
+		padding: 8px 20px;
+		display: inline-block;
+		background-color: #EFEFEF;
+		font-size: $size20px;
+		font-family: Times;
+		font-weight: bold;
+		text-decoration: none;
+		margin: 0 5px;
+	}
+		
+		.pagination span {
+		padding: 1px 8px;
+		display: inline-block;
+		}
+		.pagination span.current {
+		color: #ffffff;
+		font-size: $size20px;
+		font-family: Times;
+		font-weight: bold;
+		background-color: #0B0B0B;
+		outline: 1px solid white; /* 線幅、線のスタイル、カラー */
+		outline-offset: -5px; 
+		padding: 8px 20px;
+		margin: 0 5px;
+		box-sizing:border-box;
+		}
+		 
+		.pagination {
+		position:relative !important;     
+		overflow: hidden;
+		margin-top: 40px;
+		margin-bottom: 20px;  
+		text-align: center;
+		clear: both;
+		background-color: transparent;
+		} 
+	.pagination h2.screen-reader-text { display: none; 
+
+}
+}

@@ -1,0 +1,406 @@
+@media screen and (min-width: 751px){
+
+/*display_none*/
+	.sp {
+    	display: none !important;
+    }
+  	.detail{
+  		width: 70%;
+  		margin: 0 auto;
+  		& h1{
+	  			text-align: left;
+		  		font-size: $size24px;
+		  		font-family: Times;
+		  		border-top: double #313131;
+		  		padding: 20px 0;
+		  		margin-top: 100px;
+		  	}
+  		&-main{
+  			width: 60%;
+  			display: inline-block;
+  			float: left;
+		  	& h2{
+		  		font-size: $size16px;
+		  		font-family: "ヒラギノ明朝 Pro";
+		  		padding-bottom: 20px;
+		  		text-align: left;
+		  	}
+		  	& img{
+		  		width: 250px;
+		  		height: 325px;
+		  		margin-bottom: 50px;
+		  	}
+		  	& p{
+		  		font-size: $size14px;
+		  		font-family: "ヒラギノ明朝 Pro";
+		  		padding-bottom: 20px;
+		  		text-align: left;
+
+		  	}
+		  	& hr {
+		  		margin-bottom: 15px;
+		  	}
+		  	.button{
+		  		display: inline-flex;
+		  		justify-content: space-between;
+		  		width: 100%;
+		  		.before{
+			        color: $textMainColor;
+			        background-color: $siteButtonColor;
+			        width: 104px;
+			        height: 31px;
+			        border: none;
+			        border-radius: 2px;
+			        font-size: $size13px;
+		  			font-family: "ヒラギノ明朝 Pro";
+			  	}
+			  	.before:hover{
+			        background-color: #D3D3D3;
+			        color: black;
+			      }
+			  	.list{
+			        color: $textMainColor;
+			        background-color: $siteButtonColor;
+			        width: 104px;
+			        height: 31px;
+			        border: none;
+			        border-radius: 2px;
+			        font-size: $size13px;
+		  			font-family: "ヒラギノ明朝 Pro";
+			  	}
+			  	.list:hover{
+			        background-color: #D3D3D3;
+			        color: black;
+			      }
+			  	.next{
+			        color: $textMainColor;
+			        background-color: $siteButtonColor;
+			        width: 104px;
+			        height: 31px;
+			        border: none;
+			        border-radius: 2px;
+			        font-size: $size13px;
+		  			font-family: "ヒラギノ明朝 Pro";
+			  	}
+			  	.next:hover{
+			        background-color: #D3D3D3;
+			        color: black;
+			      }
+		  	}
+
+		}
+		&-sidebar{
+			width: 40%;
+			display: inline-block;
+			height: 1000px;
+			.category{
+				background-color: #F8F8F8;
+				width: 226px;
+				height: 230px;
+				text-align: left;
+				border-radius: 2px;
+				display: block;
+				margin: 0 auto;
+				margin-bottom: 50px;
+				& h3{
+				  font-size: $size14px;
+	  			  font-family: "ヒラギノ明朝 Pro";
+	  			  padding-left: 20px;
+	  			  padding-top: 20px;
+	  			  padding-bottom: 20px;
+
+				}
+				& a{
+				  display: block;
+				  font-size: $size12px;
+	  			  font-family: "Times";
+	  			  padding-left: 30px;
+	  			  padding-bottom: 15px;
+	  			  font-weight: bold;
+	  			  & span{
+	  			  	font-size: $size12px;
+	  			  	font-family: "Times";
+	  			  	color: white;
+
+	  			  }
+	  			  .category-mens{
+	  			  	width: 59px;
+	  			  	height: 19px;
+	  			  	background-color: #102348;
+	  			  	border-radius: 2px;
+	  			  	padding: 5px 18px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+	  			  }
+	  			  .category-ladies{
+	  			  	width: 59px;
+	  			  	height: 19px;
+	  			  	background-color: #D32352;
+	  			  	border-radius: 2px;
+	  			  	padding: 5px 15px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+				  }
+				  .category-works{
+	  			  	width: 59px;
+	  			  	height: 19px;
+	  			  	background-color: #D5D50B;
+	  			  	border-radius: 2px;
+	  			  	padding: 5px 18px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+				  }
+				  .category-best{
+	  			  	width: 59px;
+	  			  	height: 19px;
+	  			  	background-color: #0A7946;
+	  			  	border-radius: 2px;
+	  			  	padding: 5px 23px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+				  }
+				  .category-news{
+	  			  	width: 59px;
+	  			  	height: 19px;
+	  			  	background-color: #E63500;
+	  			  	border-radius: 2px;
+	  			  	padding: 5px 20px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+
+				  }
+				}
+			}
+			
+			.sns-timeline{
+				width: 226px;
+				height: 230px;
+				display: block;
+				margin: 0 auto;
+				margin-bottom: 50px;
+
+			}
+		}
+	  	
+	}
+}
+@media screen and (max-width: 750px){
+	.detail{
+  		width: 90%;
+  		margin: 0 auto;
+  		height: 2300px;
+  		display: block;
+  		& h1{
+  			text-align: left;
+	  		font-size: $size24px;
+	  		font-family: "ヒラギノ明朝 Pro";
+	  		border-bottom: double #313131;
+	  		padding: 20px 0;
+	  		margin-top: 50px;
+	  		margin-bottom: 5px;
+	  	}
+	  	.detail-main{
+	  		width: 90%;
+	  		padding-bottom: 30px;
+	  		border-bottom: double #313131;
+	  		display: inline-block;
+	  		margin-bottom: 20px;
+	  		& img{
+	  			display: inline-block;
+	  			width: 180px;
+	  			height: 124px;
+	  		}
+	  		& p{
+	  			float: left;
+	  			display: inline-block;
+	  			width: 100%;
+	  			margin-left: 20px;
+	  			font-family: "ヒラギノ明朝 Pro";
+		        font-size: $size12px;
+		        text-align: left;
+		        line-height: 1.5;
+	  		}
+	  	}
+  		&-main{
+  			width: 90%;
+  			height: 1000px;
+  			display: block;
+  			margin: 0 auto;
+			.article{
+		        width: 100%;
+		        height: 75px;
+		        box-sizing: border-box;
+		        text-align: justify;
+		        margin-bottom: 10px;
+		        float: left;
+		        &__img{
+		          width: 96px;
+		          height: 64px;
+		          float: left;
+		        }
+		        .detail{
+		          width: 57%;
+		          height: 60px;
+		          display: inline-block;
+		          padding-left: 10px;
+		          letter-spacing: 0px;
+		          & p{
+		            font-family: Helvetica;
+		            font-size: $size12px;
+		            line-height: 1;
+		            display: inline-block;
+		          }
+		          & h2{
+		            font-family: "ヒラギノ明朝 Pro";
+		            font-size: $size12px;
+		            line-height: 1.2;
+		          }
+		          & categiry__tag{
+		          	display: inline-block;
+		          }
+		        }
+		    }
+		    hr {
+		  		margin-top: 15px;
+		  	}
+		    .button{
+		  		display: inline-flex;
+		  		justify-content: space-between;
+		  		width: 100%;
+		  		margin-top: 20px;
+		  		.before{
+			        color: $textMainColor;
+			        background-color: $siteButtonColor;
+			        width: 80px;
+			        height: 20px;
+			        border: none;
+			        border-radius: 2px;
+			        font-size: $size10px;
+		  			font-family: "ヒラギノ明朝 Pro";
+			  	}
+			  	.list{
+			        color: $textMainColor;
+			        background-color: $siteButtonColor;
+			        width: 80px;
+			        height: 20px;
+			        border: none;
+			        border-radius: 2px;
+			        font-size: $size10px;
+		  			font-family: "ヒラギノ明朝 Pro";
+			  	}
+			  	.next{
+			        color: $textMainColor;
+			        background-color: $siteButtonColor;
+			        width: 80px;
+			        height: 20px;
+			        border: none;
+			        border-radius: 2px;
+			        font-size: $size10px;
+		  			font-family: "ヒラギノ明朝 Pro";
+			  	}
+		  	}
+
+		}
+		&-sidebar{
+			width: 80%;
+			display: block;
+			margin: 0 auto;
+			.category{
+				background-color: #F8F8F8;
+				width: 226px;
+				height: 230px;
+				text-align: left;
+				border-radius: 2px;
+				display: block;
+				margin: 0 auto;
+				margin-bottom: 50px;
+				& h3{
+				  font-size: $size14px;
+	  			  font-family: "ヒラギノ明朝 Pro";
+	  			  padding-left: 20px;
+	  			  padding-top: 20px;
+	  			  padding-bottom: 20px;
+
+				}
+				& a{
+				  display: block;
+				  font-size: $size12px;
+	  			  font-family: "Times";
+	  			  padding-left: 30px;
+	  			  padding-bottom: 15px;
+	  			  font-weight: bold;
+	  			  & span{
+	  			  	font-size: $size12px;
+	  			  	font-family: "Times";
+	  			  	color: white;
+
+	  			  }
+	  			  .category-mens{
+	  			  	background-color: #102348;
+	  			  	border-radius: 2px;
+	  			  	padding: 0px 10px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+    				font-size: $size11px;
+	  			  }
+	  			  .category-ladies{
+	  			  	background-color: #D32352;
+	  			  	border-radius: 2px;
+	  			  	padding: 3px 7px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+    				font-size: $size11px;
+				  }
+				  .category-works{
+	  			  	background-color: #D5D50B;
+	  			  	border-radius: 2px;
+	  			  	padding: 3px 10px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+    				font-size: $size11px;
+				  }
+				  .category-best{
+	  			  	background-color: #0A7946;
+	  			  	border-radius: 2px;
+	  			  	padding: 3px 14px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+    				font-size: $size11px;
+				  }
+				  .category-news{
+	  			  	background-color: #E63500;
+	  			  	border-radius: 2px;
+	  			  	padding: 3px 12px;
+    				margin-right: 8px;
+    				letter-spacing: 1px;
+    				font-size: $size11px;
+
+				  }
+				}
+			}
+			
+			.sns-timeline{
+				width: 226px;
+				height: 230px;
+				display: block;
+				margin: 0 auto;
+				margin-bottom: 50px;
+				.facebook{
+			        box-shadow:  0 0 8px gray;
+			    }
+			    .twitter{
+			        box-shadow:  0 0 8px gray;
+			        margin-top: 30px;
+			    }
+
+			}
+		}
+	  	
+	}
+  	.detail__title{
+	  		text-align: left;
+		    font-size: 22px;
+		    margin-bottom: 20px;
+	  	}
+		
+}

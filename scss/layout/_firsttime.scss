@@ -1,0 +1,105 @@
+@media screen and (min-width: 751px){
+
+/*display_none*/
+	.sp {
+    	display: none !important;
+    }
+  	.firsttime-contents{
+  		width: 60%;
+  		margin: 0 auto;
+  		height: 1500px;
+  		text-align: left;
+  		& img{
+  		  width: 100%;
+  		}
+  		& h1{
+  			text-align: left;
+	  		font-size: $size24px;
+	  		font-family: "ヒラギノ明朝 Pro";
+	  		border-top: double #313131;
+	  		padding: 20px 0;
+	  		margin-top: 100px;
+	  	}
+	  	.contents-main{
+	  		.content{
+	  			width: 100%;
+	  			padding-top: 20px;
+	  			padding-bottom: 20px;
+	  			margin-top: 40px;
+	  			& p{
+	  			  font-size: $size14px;
+	  			  font-family: "ヒラギノ明朝 Pro";
+	  			  margin-top: 40px;
+	  			  padding-bottom: 40px;
+	  			  border-bottom: 1px solid #CBCBCB;
+	  			  line-height: 1.5;
+	  			}
+	  		}
+	  		.map-link{
+		        color: $textMainColor;
+		        background-color: $siteButtonColor;
+		        width: 370px;
+		        height: 38px;
+		        font-size: $size15px;
+		        border: none;
+		        border-radius: 2px;
+		        text-align: center;
+	  		}
+	  		.map-link:hover{
+		        background-color: #D3D3D3;
+		        color: black;
+		      }
+	  	}
+	}
+
+}
+@media screen and (max-width: 750px){
+	.firsttime-contents{
+  		width: 90%;
+  		margin: 0 auto;
+  		height: auto;
+  		text-align: left;
+  		& img{
+  		  width: 100%;
+  		}
+  		& h1{
+  			text-align: center;
+	  		font-size: $size24px;
+	  		font-family: "ヒラギノ明朝 Pro";
+	  		border-top: double #313131;
+	  		padding: 10% 0;
+	  		margin-top: 10%;
+	  	}
+	  	.contents-main{
+	  		.content{
+	  			width: 100%;
+	  			padding-bottom: 10%;
+	  			margin-top: 10%;
+	  			& p{
+	  			  font-size: $size14px;
+	  			  font-family: "ヒラギノ明朝 Pro";
+	  			  margin-top: 10%;
+	  			  padding-bottom: 10%;
+	  			  border-bottom: 1px solid #CBCBCB;
+	  			  line-height: 1.5;
+	  			}
+	  		}
+	  		.btn{
+	  			width: 100%;
+	  			text-align: center;
+	  			margin-bottom: 10%;
+		  		.map-link{
+			        color: $textMainColor;
+			        background-color: $siteButtonColor;
+			        width: 100%;
+			        height: 10%;
+			        font-size: $size13px;
+			        border: none;
+			        border-radius: 2px;
+			        text-align: center;
+		  		}
+		  	}
+	  	}
+	}
+}
+

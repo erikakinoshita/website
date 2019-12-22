@@ -1,0 +1,72 @@
+@media screen and (min-width: 751px){
+
+/*display_none*/
+	.sp {
+    	display: none !important;
+    }
+  	.product-contents{
+  		width: 60%;
+  		margin: 0 auto;
+  		height: 1500px;
+  		& h1{
+  			text-align: left;
+	  		font-size: $size24px;
+	  		font-family: "ヒラギノ明朝 Pro";
+	  		border-top: double #313131;
+	  		padding: 20px 0;
+	  		margin-top: 100px;
+	  	}
+	  	.contents-main{
+	  		display: inline-flex;
+	  		flex-wrap: wrap;
+	  		justify-content: space-between;
+	  		.content{
+	  			padding-top: 40px;
+	  			& p{
+		  		  text-align: left;
+		  		  font-size: $size16px;
+		  		  font-family: "ヒラギノ明朝 Pro";
+		  		  border-bottom: 1px solid;
+		  		  margin-bottom: 20px;
+		  		}
+	  		}
+	  	}
+	}
+
+}
+@media screen and (max-width: 750px){
+	.product-contents{
+  		width: 90%;
+  		margin: 0 auto;
+  		height: auto;
+  		& h1{
+  			text-align: center;
+	  		font-size: $size24px;
+	  		font-family: "ヒラギノ明朝 Pro";
+	  		border-top: double #313131;
+	  		padding: 10% 0 0;
+	  		margin-top: 10%;
+	  	}
+	  	.contents-main{
+	  		display: inline-flex;
+	  		flex-wrap: wrap;
+	  		justify-content: space-between;
+	  		margin-bottom: 10%;
+	  		.content{
+	  			width: 100%;
+	  			margin: 0 auto;
+	  			padding-top: 10%;
+	  			& img{
+	  				width: 100%;
+	  			}
+	  			& p{
+		  		  text-align: left;
+		  		  font-size: $size16px;
+		  		  font-family: "ヒラギノ明朝 Pro";
+		  		  border-bottom: 1px solid;
+		  		  margin-bottom: 10%;
+		  		}
+	  		}
+	  	}
+	}
+}

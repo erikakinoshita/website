@@ -1,0 +1,354 @@
+@media screen and (min-width: 751px){
+
+/*display_none*/
+	.nav-logo, .nav-content, .nav-bar, .nav {
+		display: none!important;
+	}
+  .sp {
+    display: none !important;
+    }
+  .header{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 17px;
+    &-logo_left{
+      padding-top: 2px;
+      padding-left: 2px;
+      float: left;
+    }
+    &-nav{
+      width: 54%;
+      display: inline-flex;
+      ul{
+        display: inline-flex;
+        
+      }
+      &__list{
+          font-size: $size16px;
+          padding: 0 23.5px 15px;
+          margin: 0 5px;
+          height: 40px;
+          font-family: "Times";
+        }
+			&__list:nth-child(1) {
+				width: 80px;
+			}
+			&__list:nth-child(2) {
+				width: 90px;
+			}
+			&__list:nth-child(3) {
+				width: 110px;
+			}
+			&__list:nth-child(4) {
+				width: 110px;
+			}
+			&__list:nth-child(5) {
+				width: 95px;
+			}
+			&__list:nth-child(6) {
+				width: 115px;
+			}
+      &__list:hover{
+        font-weight: bold;
+        border-bottom: 5px solid;
+        cursor: pointer;
+        & a{
+          font-weight: bold;
+          font-family: "Times";
+        }
+      }
+      #lineup-list{
+        position: relative;
+        #lineup-menu{
+          position:absolute;
+          width: 422px;
+          height: 167px;
+          background-color: #FFFFFF;
+          z-index: 100;
+          left:0;
+          top:20px;
+          margin-top: 20px;
+          display: none;
+          color:#fff;
+          opacity: 0.9;
+        }
+      }
+      #lineup-list:hover #lineup-menu{
+        display: block;
+      }
+      .linup-menu-mens{
+        width: 100px;
+        text-align: left;
+        margin-top: 20px;
+        display: inline-block;
+        float: left;
+        margin-left: 32px;
+        & h2{
+          font-family: "Garamond BE";
+          font-size: $size19px;
+        }
+        & p{
+          font-family: "ヒラギノ明朝 Pro";
+          font-size: $size10px;
+          line-height: 1.5;
+        }
+      }
+      .linup-menu-ladies{
+        width: 100px;
+        text-align: left;
+        margin-top: 20px;
+        display: inline-block;
+        float: left;
+        margin-left: 32px;
+        & h2{
+          font-family: "Garamond BE";
+          font-size: $size19px;
+        }
+        & p{
+          font-family: "ヒラギノ明朝 Pro";
+          font-size: $size10px;
+          line-height: 1.5;
+        }
+      }
+      .linup-menu-works{
+        width: 100px;
+        text-align: left;
+        margin-top: 20px;
+        display: inline-block;
+        float: left;
+        margin-left: 32px;
+        & h2{
+          font-family: "Garamond BE";
+          font-size: $size19px;
+        }
+        & p{
+          font-family: "ヒラギノ明朝 Pro";
+          font-size: $size10px;
+          line-height: 1.5;
+        }
+      }
+      #pickup-list{
+        position: relative;
+        #pickup-menu{
+          position:absolute;
+          width: 297px;
+          height: 167px;
+          background-color: #FFFFFF;
+          z-index: 100;
+          left:0;
+          top:20px;
+          margin-top: 20px;
+          color:#fff;
+          display: none;
+          opacity: 0.9;
+        }
+      }
+      #pickup-list:hover #pickup-menu{
+        display: block;
+      }
+      .pickup-menu-best{
+        width: 100px;
+        text-align: left;
+        margin-top: 20px;
+        display: inline-block;
+        float: left;
+        margin-left: 32px;
+        & h2{
+          font-family: "Garamond BE";
+          font-size: $size19px;
+        }
+        & p{
+          font-family: "ヒラギノ明朝 Pro";
+          font-size: $size10px;
+          line-height: 1.5;
+        }
+      }
+      .pickup-menu-news{
+        width: 100px;
+        text-align: left;
+        margin-top: 20px;
+        display: inline-block;
+        float: left;
+        margin-left: 32px;
+        & h2{
+          font-family: "Garamond BE";
+          font-size: $size19px;
+        }
+        & p{
+          font-family: "ヒラギノ明朝 Pro";
+          font-size: $size10px;
+          line-height: 1.5;
+        }
+      }
+    }
+    .contact-button{
+      font-size: $size10px;
+      padding: 7px 15px;
+      border-radius: 5px;
+      background-color: $siteButtonColor;
+      color: $textMainColor;
+      font-family: "ヒラギノ明朝 Pro";
+      & img{
+        margin-bottom: 3px;
+        margin-right: 5px;
+        width: 13px;
+      }
+    }
+    .contact-button:hover{
+        background-color: #D3D3D3;
+        color: black;
+      }
+    &-sns{
+      display: inline-flex;
+      float: right;
+      & a{
+        width: 35px;
+        height: 35px;
+      }
+      & a:nth-child(2) {
+        margin: 0 15px;
+      }
+      .sns-icon {
+        padding: 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 750px){
+.main-visual-title h1 {
+	font-size: 50px;
+	height: 50%;
+}
+.dot-class {
+	display: none!important;
+}
+  .header{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    &-nav{
+      display: none;
+    }
+    &-sns{
+      display: none;
+    }
+    .contact-button{
+      display: none;
+    }
+    &-logo_left{
+			float: left;
+			margin: 20px 0 0 50px;
+    }
+    .nav-logo{
+      position: absolute;
+      width: 35%;
+      height: 25%;
+      left: 5%;
+      top: 40%;
+			display: none;
+    }
+		.dot-class {
+			display: none!important;
+		}
+    .nav{
+      height: auto;
+      position: absolute;
+      display: inline-block;
+			right: 30px;
+      top: 23%;
+      #nav-bar {
+        /*チェックボックス等は非表示に*/
+        .nav-unshown {
+          display:none;
+        }
+        /*アイコンのスペース*/
+        #nav-open {
+          display: inline-block;
+          width: 30px;
+          height: 32px;
+          vertical-align: middle;
+					cursor: pointer;
+        }
+        /*ハンバーガーアイコンをCSSだけで表現*/
+        #nav-open span, #nav-open span:before, #nav-open span:after {
+          position: absolute;
+          height: 5px;/*線の太さ*/
+          width: 30px;/*長さ*/
+          border-radius: 3px;
+          background: #555;
+          display: block;
+          content: '';
+          cursor: pointer;
+        }
+        #nav-open span:before {
+          bottom: -14px;
+        }
+        #nav-open span:after {
+          bottom: -28px;
+        }
+        /*閉じる用の薄黒カバー*/
+        #nav-close {
+          display: none;
+          position: fixed;
+          z-index: 99;
+          top: 0;/*全体に広がるように*/
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: black;
+          opacity: 0;
+          transition: .3s ease-in-out;
+        }
+        /*中身*/
+        #nav-content {
+          overflow: auto;
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 9999;/*最前面に*/
+          width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+          max-width: 330px;/*最大幅（調整してください）*/
+          height: 100%;
+          background: #fff;/*背景色*/
+          transition: .3s ease-in-out;/*滑らかに表示*/
+          -webkit-transform: translateX(-105%);
+          transform: translateX(-105%);/*左に隠しておく*/
+          & ul{
+            margin-top: 150px;
+            & li{
+              margin: 20px 0;
+            }
+          }
+        }
+        /*チェックが入ったらもろもろ表示*/
+        #nav-input:checked ~ #nav-close {
+          display: block;/*カバーを表示*/
+          opacity: .5;
+        }
+        #nav-input:checked ~ #nav-content {
+          -webkit-transform: translateX(0%);
+          transform: translateX(0%);/*中身を表示（右へスライド）*/
+          box-shadow: 6px 0 25px rgba(0,0,0,.15);
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 650px){
+	.twitter, .facebook {
+		float: none!important;
+		width: 70%!important;
+		margin: 0 auto!important;
+		text-align: center!important;
+		height: 60%!important;
+	}
+	.facebook iframe {
+		position: static!important;
+		margin-top: 50px!important;
+		margin-bottom: 40px!important;
+	}
+	.twitter {
+		height: 40%!important;
+	}
+}
+
