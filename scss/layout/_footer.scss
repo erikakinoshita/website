@@ -1,0 +1,163 @@
+
+@media screen and (min-width: 751px){
+
+  .sns {
+    width: 100%;
+    padding: 14px 0px; 
+    border-top: solid 1px #DEDEDE;
+    display: block;
+    .footer-sns{
+      width: 1200px;
+      margin: 0 auto;
+      &__icon {
+        float: left;
+        .sns-icon{
+          padding: 0px 9px;
+        }
+      }
+      &__introduction{
+        float: left;
+        text-align: left;
+        padding-left: 21px;
+        font-size: $size12px;
+        & strong{
+          font-weight: bold;
+          font-family: "Garamond BE";
+        }
+        & span:nth-child(2){
+          padding-left: 2px;
+          font-family: Times;
+          display: block;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+  footer{
+    width: 100%; 
+    background-color: $siteButtonColor;
+    height: 175px;
+    .footer-main{
+      width: 1200px;
+      margin: 0 auto;
+      display: inline-flex;
+      &__menu{
+        float: left;
+        text-align: left;
+        padding-top: 15px;
+        & a{
+          color: $textMainColor;
+          font-family: Times;
+          font-size: $size14px;
+          padding: 5px 0;
+        }
+      }
+      &__menu:nth-child(n+2){
+        padding-left: 40px;
+      }
+      &__privacy{
+        float: left;
+        text-align: left;
+        padding-left: 85px;
+        padding-top: 15px;
+        & a{
+          color: $textMainColor;
+          font-family: Times;
+          font-size: $size12px;
+          padding: 5px 0;
+        }
+      }
+    }
+    .footer-copyright{
+      display: block;
+      color: $textMainColor;
+      font-size: $size12px;
+      font-family: Times;
+      text-align: center;
+      padding-top: 50px;
+    }
+  }
+}
+@media screen and (max-width: 750px){
+  .sns {
+    width: 100%;
+    height: auto;
+    padding: 14px 0px;
+    border-top: solid 1px #DEDEDE;
+    .footer-sns{
+      width: 90%;
+      margin: 0 auto;
+      &__icon {
+        display: block;
+        text-align: left;
+        .sns-icon{
+          padding: 0px 9px;
+        }
+      }
+      &__introduction{
+        display: block;
+        text-align: left;
+        font-size: $size12px;
+        margin-top: 5%;
+        & strong{
+          font-weight: bold;
+        }
+        & span:nth-child(2){
+          padding-left: 2px;
+          font-family: Times;
+          display: block;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+  footer{
+    width: 100%;
+    height: auto;
+    background-color: $siteButtonColor;
+    .footer-main{
+      width: 100%;
+      margin: 0 auto;
+      display: inline-flex;
+      &__menu{
+        width: 33%;
+        text-align: center;
+        padding-top: 15px;
+        & a{
+          color: $textMainColor;
+          font-family: Times;
+          font-size: $size14px;
+          padding: 5px 0;
+        }
+      }
+      &__menu:nth-child(n+2){
+        padding-left: 2%;
+      }
+      &__privacy{
+        display: none;
+      }
+    }
+    .footer-privacy{
+      width: 90%;
+      margin: 0 auto;
+      &__menu{
+        text-align: left;
+        padding-top: 15px;
+        & a{
+          color: $textMainColor;
+          font-family: Times;
+          font-size: $size12px;
+          padding: 5px 0;
+        }
+      }
+    }
+    .footer-copyright{
+      display: block;
+      color: $textMainColor;
+      font-size: $size12px;
+      font-family: Times;
+      text-align: center;
+      padding-top: 5%;
+    }
+  }
+}

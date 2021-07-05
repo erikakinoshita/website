@@ -1,0 +1,34 @@
+/*==================================================
+ * レスポンシブル基本設定
+ *================================================*/
+
+.display-sm {
+  display: none;
+}
+@media #{$sm-l} {
+  .display-sm {
+    display: block;
+  }
+}
+.display-pc {
+  display: block;
+}
+@media #{$sm-l} {
+  .display-pc {
+    display: none;
+  }
+}
+
+.pd-none-sm {
+
+}
+
+.pc-no-padding{
+  padding: 0;
+}
+
+@media #{$sm-l} {
+  .pc-no-padding{
+    padding: 0 15px;
+  }
+}

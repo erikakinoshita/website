@@ -1,0 +1,1450 @@
+@media screen and (min-width: 751px){
+
+
+/*display_none*/
+  .main-visual{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    .my-slide{
+    height: 560px;
+  }
+    &-img{
+    }
+    &-title{
+      position: absolute;
+      top: 120px;
+      left: 240px;
+      width: 720px;
+      height: 324px;
+      background-color: rgba(56,66,106, .5);
+      & h1{
+        font-size: $size74px;
+        width: 462px;
+        letter-spacing: 3px;
+        margin-left: 135px;
+        width: 450px;
+        margin: 0 auto;
+        padding-top: 25px;
+        color: $textMainColor;
+        border-bottom: 3px solid $textMainColor; 
+        font-family: "ヒラギノ明朝 Pro";
+
+      }
+      & h2{
+        font-size: $size38px;
+        font-family: "Garamond";
+        letter-spacing: 3px;
+        width: 455px;
+        margin: 0 auto;
+        letter-spacing: 2px;
+        font-weight: bold;
+        padding: 10px 20px;
+        color: $textMainColor;
+        border-bottom: 1px solid $textMainColor;
+      }
+      & p {
+        font-size: $size28px;
+        letter-spacing: 4.5px;
+        width: 455px;
+        margin: 0 auto;
+        padding: 7px 20px;
+        margin-top: 5px;
+        color: $textMainColor;
+        border-top: 1px solid $textMainColor;
+        font-family: "ヒラギノ明朝 Pro";
+      }
+    }
+  }
+
+  // section news
+  .news{
+    width: 93.7%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: $siteButtonColor;
+    &-title{
+      width: 860px;
+      margin: 0 auto;
+      padding-top: 15px;
+      padding-bottom: 5px;
+      margin-bottom: 3px;
+      border-bottom: 1px solid $textMainColor;
+      position: relative;
+      
+      & h3{
+        font-size: $size30px;
+        font-weight: bold;
+        color: $textMainColor;
+        display: block;
+        padding-left: 30px;
+        font-family: "Garamond BE";
+      }
+      & a{
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+        display: inline-block;
+        float: right;
+        padding-top: 15px;
+        color: $textMainColor;
+        font-size: $size16px;
+        letter-spacing: 1px;
+        padding-right: 8px;
+      }
+    }
+    &-contents{
+      width: 860px;
+      margin: 5px auto;
+      padding-top: 20px;
+      border-top: 1px solid $textMainColor;
+      .article{
+        width: 45%;
+        height: 75px;
+        box-sizing: border-box;
+        text-align: justify;
+        margin-bottom: 10px;
+        float: left;
+        &__img{
+          width: 96px;
+          height: 64px;
+          margin-bottom: 14px;
+        }
+        .category__tag{
+          display: none;
+        }
+        .detail{
+          display: inline-block;
+          padding-left: 15px;
+          letter-spacing: 0px;
+          & p{
+            font-family: Helvetica;
+            font-size: $size13px;
+            letter-spacing: 0;
+            line-height: 1;
+            border-bottom: 1px solid;
+            width: 70px;
+            color: $textMainColor;
+            margin-bottom: 13px;
+          }
+          & h2{
+            font-family: "ヒラギノ明朝 Pro";
+            font-size: $size14px;
+            color: $textMainColor;
+            letter-spacing: 3px;
+          }
+        }
+      }
+    }
+  }
+  // section instagram
+  .instagram{
+    width: 84.5%;
+    margin: 0 auto;
+    & h2{
+      font-size: $size42px;
+      font-weight: bold;
+      text-align: left;
+      padding: 35px 0px 5px;
+      border-bottom: 2px solid #4A4A4A;
+      font-family: "Garamond BE"; 
+    }
+  }
+// section introduce
+  .introduction{
+    width: 100%;
+    padding-top: 35px;
+    position: relative;
+    display: flex;
+    height: 900px;
+    &-sns{
+      width: 51%;
+      display: inline-block;
+      float: left;
+      &__title{
+        font-size: $size34px;
+        letter-spacing: 2px;
+        padding-left: 100px;
+        font-family: "Garamond"
+      }
+      &__icon{
+        padding: 20px;
+        padding-left: 100px;
+      }
+      &__icon a:nth-child(2){
+        padding: 0 32px;
+      }
+      &__icon img{
+        width: 43px;
+        height: 43px;
+      }
+      &__detail{
+        width: 90%;
+        height: 115px;
+        background-color: $siteButtonColor;
+        & p{
+          font-size: $size17px;
+          text-align: left;
+          color: $textMainColor;
+          font-family: "ヒラギノ明朝 Pro";
+          line-height: 24px;
+          padding: 27px 0 0 240px;
+        }
+      }
+    }
+    .sns-timeline{
+      width: 50%;
+      display: inline-block;
+      float: right;
+      .facebook{
+        display: inline-block;
+        float: left;
+        box-shadow:  0 0 8px gray;
+      }
+      .twitter{
+        display: inline-block;
+        box-shadow:  0 0 8px gray;
+        margin-right: 57px;
+      }
+    }
+    .mens{
+      position: absolute;
+      top: 370px;
+      left: 250px;
+      & h2{
+        text-align: left;
+        font-size: $size50px;
+        font-weight: bold;
+        line-height: 38px;
+        font-family: "Garamond BE";
+      }
+      .readmore{
+        position: absolute;
+        z-index: 10;
+        color: $textMainColor;
+        background-color: $siteButtonColor;
+        font-family: "Times";
+        font-weight: bold;
+        width: 180px;
+        height: 50px;
+        top: 282px;
+        right: -20px;
+        border: none;
+        border-radius: 2px;
+      }
+      .readmore:hover{
+        background-color: #D3D3D3;
+        color: black;
+      }
+      
+    }
+    .ladies{
+      position: absolute;
+      top: 470px;
+      left: 750px;
+      & h2{
+        text-align: left;
+        font-size: $size50px;
+        font-weight: bold;
+        line-height: 38px;
+        font-family: "Garamond BE";
+      }
+      .readmore{
+        position: absolute;
+        z-index: 10;
+        font-family: "Times";
+        font-weight: bold;
+        color: $textMainColor;
+        background-color: $siteButtonColor;
+        width: 180px;
+        height: 50px;
+        top: 282px;
+        right: -20px;
+        border: none;
+        border-radius: 2px;
+      }
+      .readmore:hover{
+        background-color: #D3D3D3;
+        color: black;
+      }
+    }
+  }
+  // section works
+  .works{
+    width: 88%;
+    height: 150px;
+    float: left;
+    & h2{
+      font-size: $size48px;
+      font-weight: bold;
+      text-align: left;
+      padding: 35px 0 0 147px;
+      border-bottom: 2px solid #4A4A4A;
+      font-family: "Garamond BE";
+      position: relative;
+      & span{
+      font-size: $size15px;
+      font-family: "ヒラギノ明朝 Pro";
+      letter-spacing: 2px;
+      color: $textDetailColor;
+      position: absolute;
+      top: 65px;
+      left: 320px;
+      }
+    }
+  }
+  .main{
+    width: 83.5%;
+    margin: 0 auto;
+    .works-box{
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+			flex-direction: row-reverse;
+      &__content{
+        width: 23%;
+        float: left;
+        box-sizing: border-box;
+				margin-left: 20px;
+        & h4{
+          font-size: $size22px;
+          font-family: "ヒラギノ明朝 Pro";
+          font-weight: bold;
+          width: 80%;
+          margin: 0 auto;
+          padding: 10px 0;
+          text-align: left;
+          letter-spacing: 1px;
+					padding-left: 25px!important;
+        }
+        & p{
+          font-size: $size14px;
+          font-family: "ヒラギノ明朝 Pro";
+          width: 80%;
+          margin: 0 auto;
+          letter-spacing: 1px;
+          line-height: 20px;
+          text-align: left;
+					padding-left: 25px!important;
+        }
+      }
+    }
+    .readmore{
+      font-family: "Times";
+      font-weight: bold;
+      color: $textMainColor;
+      background-color: $siteButtonColor;
+      width: 180px;
+      height: 50px;
+      border: none;
+      border-radius: 2px;
+      margin: 50px 0;
+    }
+    .readmore:hover{
+        background-color: #D3D3D3;
+        color: black;
+      }
+  }
+  // section pickup
+  .pickup{
+    width: 100%;
+    background-color: $siteContactColor;
+    border-top: 2px solid #DEDEDE;
+    padding: 15px 0 40px;
+    font-size: $size38px;
+    font-family: "Garamond BE";
+    .bestselection-span{
+      text-align: center!important;
+      font-family: Times!important;
+      font-size: $size16px!important;
+      & img{
+        margin-bottom: 5px;
+        margin-right: 5px;
+      }
+    }
+    .newrelease-span{
+      text-align: center!important;
+      font-family: Times!important;
+      font-size: $size16px!important;
+      padding-right: 80px!important;
+      & img{
+        margin-bottom: 5px;
+        margin-right: 5px;
+      }
+    }
+    &-content{
+      width: 83.5%;
+      margin: 0 auto;
+      & h3{
+        font-size: $size36px;
+        padding-bottom: 20px;
+        font-family: "Garamond BE";
+        font-weight: bold;
+      }
+      .bestselection{
+        display: block;
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+        & p {
+          font-size: $size22px;
+          font-family: "ヒラギノ明朝 Pro";
+          padding-bottom: 20px;
+        }
+        & img {
+          display: inline-block;
+          transition-duration: 0.3s;
+        }
+        .best1,.best2{
+          margin: 20px;
+          width: 192px;
+          height: 192px;
+          border-radius: 50%;
+          display: inline-block;
+          overflow: hidden;
+          background-position: center;  
+        }
+        & a{
+          display: block;
+          font-size: $size16px;
+          font-family: Times;
+          padding: 30px 0 10px;
+        }
+        & a:hover{
+          & img{
+            transform: scale(1.1);  /*画像の拡大率*/
+            transition-duration: 0.3s;  /*変化に掛かる時間*/
+
+          }
+        }
+      }
+      .newrelease{
+        display: block;
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        & p {
+          font-size: $size22px;
+          font-family: "ヒラギノ明朝 Pro";
+          text-align: left;
+          padding-left: 95px;
+          padding-bottom: 25px;
+        }
+        & img {
+         display: inline-block;
+        transition-duration: 0.3s;
+        }
+        & a{
+          display: block;
+          font-size: $size16px;
+          font-family: Times;
+          padding: 30px 0 10px;
+        }
+        .new1,.new2{
+          margin: 20px;
+          width: 192px;
+          height: 192px;
+          border-radius: 50%;
+          display: inline-block;
+          overflow: hidden;
+          background-position: center;  
+        }
+        & a:hover{
+          & img{
+            transform: scale(1.1);  /*画像の拡大率*/
+            transition-duration: 0.3s;  /*変化に掛かる時間*/
+          }
+        }
+      }
+    }
+  }
+  #page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 100px;
+  bottom: 0;
+  opacity: 0.6;
+  z-index: 100;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+  // section link
+  .link{
+    width: 83.5%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    &-nav{
+      width: 25%;
+      float: left;
+      box-sizing: border-box;
+      &-img{
+        width: 226px;
+        height: 144px;
+        overflow: hidden;
+        & img{
+          transition-duration: 0.3s;
+        }
+      }
+      & p {
+        font-size: $size16px;
+        font-family: "ヒラギノ明朝 Pro";
+        padding-bottom: 35px;
+        padding-left: 5px;
+        text-align: left;
+      }
+    }
+    &-nav:hover{
+      & img{
+        transform: scale(1.1);  /*画像の拡大率*/
+        transition-duration: 0.3s;  /*変化に掛かる時間*/
+      }
+      & p{
+        opacity: 0.6;
+      }
+
+    }
+  }
+  // section contack
+
+  .contact{
+    width: 100%;
+    background-color:  $siteContactColor;
+    padding: 30px 0;
+    & h2{
+      width: 860px;
+      margin: 0 auto;
+      font-size: $size36px;
+      font-family: "Garamond BE";
+      font-weight: bold;
+      padding-bottom: 35px;
+
+    }
+    & input {
+      width: 860px;
+      margin: 0 auto;
+      background-color: #F8F8F8;
+      border: none;
+      border-bottom: dashed 1px;
+      margin-bottom: 20px;
+      font-size: $size17px;
+      font-family: "Times";
+      font-weight: bold;
+    }
+    & input::placeholder{
+      color: black;
+    }
+    & textarea{
+      width: 860px;
+      margin: 0 auto;
+      background-color: #F8F8F8;
+      border: none;
+      border-bottom: dashed 1px;
+      color: black;
+      margin-bottom: 20px;
+      padding-bottom: 150px;
+      font-size: $size17px;
+      font-family: "Times";
+      font-weight: bold;
+    }
+    & textarea::placeholder{
+      color: black;
+    }
+    .wpcf7-submit{
+      color: $textMainColor;
+      background-color: $siteButtonColor;
+      width: 180px;
+      height: 50px;
+      border: none;
+      border-radius: 2px;
+      margin: 50px 0;
+      font-family: "Times";
+      font-weight: bold;
+    }
+    .wpcf7-submit:hover{
+        background-color: #D3D3D3;
+        color: black;
+      }
+  }
+  // section access
+  .access{
+    width: 93.7%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .about{
+      width: 50%;
+      display: inline-block;
+      float: left;
+      & h3{
+        text-align: left;
+        font-family: "ヒラギノ明朝 ProN";
+        font-family: $size14px;
+        padding-bottom: 20px;
+        & strong{
+          font-size: $size27px;
+          font-family: "Garamond BE";
+        }
+      }
+      & table{
+        margin-bottom: 20px;
+      }
+      & tr{
+        border-bottom: dashed 1px;
+      }
+      & td{
+        padding: 15px 0;
+        font-size: $size12px;
+      }
+      & iframe {
+        display: inline-block;
+        float: left;
+      }
+      .map-access{
+        display: inline-block;
+        & h3{
+          font-size: $size14px;
+          font-family: "ヒラギノ明朝 ProN";
+          padding-bottom: 10px;
+        }
+        & p{
+          font-size: $size12px;
+          font-family: "ヒラギノ明朝 ProN";
+          text-align: left;
+          padding-bottom: 10px;
+          line-height: 1.5;
+        }
+      }
+      .map-detail{
+        display: block;
+        width: 100%;
+        background-color: $siteContactColor;
+        margin-top: 50px;
+        border-radius: 2px;
+        & p{
+          font-size: $size12px;
+          font-family: "ヒラギノ明朝 ProN";
+          text-align: left;
+          padding-left: 20px;
+        }
+      }
+    }
+    .calender{
+      width: 50%;
+      display: inline-block;
+      padding-left: 50px;
+      text-align: left;
+      & h3{
+        text-align: left;
+        font-family: "ヒラギノ明朝 ProN";
+        font-family: $size14px;
+        padding-bottom: 20px;
+        & strong{
+          font-size: $size27px;
+          font-family: "Garamond BE";
+        }
+      }
+      & p{
+        font-size: $size14px;
+        font-family: "ヒラギノ明朝 ProN";
+        padding-bottom: 15px;
+      }
+      &-img img:nth-child(2){
+        margin-left: 20px;
+      }
+      .announcement img:nth-child(2){
+        margin-left: 10px;
+      }
+      &-confirm{
+        color: $textMainColor;
+        background-color: $siteButtonColor;
+        width: 260px;
+        height: 36px;
+        border: none;
+        border-radius: 2px;
+        font-size: $size14px;
+        margin-bottom: 20px;
+        & img{
+          margin: 0 10px 5px;
+        }
+      }
+      .note{
+        width: 100%;
+        height: 100px;
+        background-color: $siteContactColor;
+        margin: 10px 0;
+        & p{
+          font-size: $size12px;
+          font-family: "ヒラギノ明朝 ProN";
+          padding-top: 10px;
+          padding-left: 20px;
+          line-height: 1.5;
+        }
+      }
+      & table{
+        margin-bottom: 20px;
+      }
+      & tr{
+        border-bottom: dashed 1px;
+      }
+      & td{
+        padding: 15px 0;
+        font-size: $size12px;
+      }
+    }
+    .reservation-button{
+      color: $textMainColor;
+      background-color: $siteButtonColor;
+      width: 165px;
+      height: 36px;
+      border: none;
+      border-radius: 2px;
+      font-size: $size14px;
+      margin-bottom: 20px;
+    }
+    .reservation-button:hover{
+        background-color: #D3D3D3;
+        color: black;
+      }
+
+  }
+  .dot-class{
+    position: absolute;
+    top: 500;
+    left: 565px;
+    display: inline-flex;
+    & li{
+    display: inline-block;
+    margin: 0 8px;
+    & button{
+      position: relative;
+      text-indent: -9999px;
+      border: none;
+      &:before{
+        content: '◻️';
+        font-size: 13px;
+        text-indent: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+    &.slick-active{
+      button:before{
+        content: '■';
+      }
+    }
+  }
+
+  }
+
+}
+
+@media screen and (max-width: 750px){
+
+.instagram h2 {
+	font-size: 30px;
+}
+
+#page_top {
+	display: none;
+}
+
+.my-slided {
+	width: 100%;
+	height: 260px!important;
+}
+.main-visual-title h1 {
+	font-size: 1.8rem!important;
+	height: 50%;
+	padding-bottom: 0!important;
+	line-height: 120px!important;
+}
+.main-visual-title h2 {
+	font-size: 1.3rem!important;
+}
+.main-visual-title p {
+	font-size: 0.7rem!important;
+}
+.dot-class {
+	display: none!important;
+}
+  .sp{
+    display: none;
+  }
+  .my-slide{
+    height: 260px;
+  }
+  .main-visual{
+    width: 100%;
+    position: relative;
+    &-img{
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+    }
+    &-title{
+      position: absolute;
+      width: 80%;
+      height: 70%;
+      margin: 0 auto;
+      top: 16%;
+      left: 10%;
+      background-color: rgba(56,66,106, .5);
+      & h1{
+        width: 70%;
+        font-size: $size20px;
+        margin: 0 auto;
+        padding: 5%;
+        color: $textMainColor;
+        border-bottom: 3px solid $textMainColor; 
+
+      }
+      & h2{
+        width: 70%;
+        font-size: $size10px;
+        margin: 0 auto;
+        letter-spacing: 2px;
+        font-weight: bold;
+        padding: 10px 20px;
+        color: $textMainColor;
+        border-bottom: 1px solid $textMainColor;
+      }
+      & p {
+        width: 70%;
+        font-size: $size10px;
+        margin: 0 auto;
+        padding: 2%;
+        margin-top: 3px;
+        color: $textMainColor;
+        border-top: 1px solid $textMainColor;
+      }
+    }
+  }
+
+  // section news
+  .news{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    background-color: $siteButtonColor;
+    position: relative;
+    &-title{
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 15px;
+      padding-bottom: 5px;
+      margin-bottom: 5px;
+      border-bottom: 1px solid $textMainColor;
+      & h3{
+        display: inline-block;
+        font-size: $size20px;
+        font-weight: bold;
+        color: $textMainColor;
+        width: 100%;
+        font-family: "Garamond BE";
+      }
+      & a{
+        display: inline-block;
+        padding: 10px 0px;
+        font-size: $size10px;
+        color: $textMainColor;
+      }
+    }
+    &-contents{
+      width: 80%;
+      height: 40%;
+      margin: 0 auto;
+      padding-top: 20px;
+      border-top: 1px solid $textMainColor;
+      .article{
+        width: 100%;
+        height: 40%;
+        box-sizing: border-box;
+        text-align: justify;
+        margin-bottom: 10px;
+        float: left;
+        &__img{
+          width: 40%;
+          height: 100%;
+          margin-bottom: 14px;
+        }
+        .category__tag{
+          display: none;
+        }
+        .detail{
+          display: inline-block;
+          padding-left: 5px;
+          letter-spacing: 0px;
+          width: 50%;
+          & p{
+            font-family: Helvetica;
+            font-size: $size8px;
+            line-height: 55px;
+            color: $textMainColor;
+          }
+          & h2{
+            font-family: "ヒラギノ明朝 Pro";
+            font-size: $size8px;
+            color: $textMainColor;
+          }
+        }
+      }
+    }
+  }
+  // section instagram
+  .instagram{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    & h1{
+      width: 90%;
+      margin: 0 auto;
+      text-align: left;
+      font-size: $size40px;
+      border-bottom: 1px solid ;
+      color: $textDetailColor;
+    }
+  }
+// section introduce
+  .introduction{
+    margin-bottom: 100px;
+    &-sns{
+      &__title{
+        font-size: $size40px;
+      }
+      &__icon{
+      }
+      &__icon a:nth-child(2){
+      }
+      &__icon img{
+        width: $size50px;
+        margin: 20px 20px;
+      }
+      &__detail{
+        width: 90%;
+        height: auto;
+        background-color: $siteButtonColor;
+        margin: 20px 0;
+        & p{
+          font-size: $size14px;
+          text-align: left;
+          color: $textMainColor;
+          font-family: "ヒラギノ明朝 Pro";
+          line-height: 20px;
+          padding: 5%;
+        }
+      }
+    }
+    .sns-timeline{
+      width: 100%;
+      height: auto;
+      margin-bottom: 100px;
+      .facebook{
+        width: 40%;
+        height: 70%;
+        margin:  0 auto;
+        position: relative;
+        display: inline-block;
+				float: left;
+				margin-left: 10%;
+        iframe{
+          position: absolute;
+          left: 0;
+          box-shadow:  0 0 8px gray;
+        }
+      }
+      .twitter{
+				margin-top: 2px;
+        width: 40%;
+        height: 70%;
+        margin: 0 auto;
+        position: relative;
+        display: inline-block;
+				float: left;
+        iframe{
+          position: absolute;
+          box-shadow:  0 0 8px gray;
+        }
+      }
+    }
+    .mens{
+      width: 80%;
+      margin: 0 auto;
+      display: inline-block;
+      position: relative;
+      margin-top: 20px;
+      img{
+        width: 100%;
+      }
+      & h2{
+        text-align: left;
+        font-size: $size30px;
+        font-weight: bold;
+        line-height: 50px;
+      }
+      .readmore{
+        z-index: 10;
+        font-family: "Times";
+        color: $textMainColor;
+        background-color: $siteButtonColor;
+        width: 50%;
+        height: 20%;
+        top: 90%;
+        right: -20px;
+        border: none;
+        border-radius: 2px;
+        position: absolute;
+        font-size: $size15px;
+      }
+      .readmore:hover{
+        background-color: #D3D3D3;
+        color: black;
+      }
+    }
+    .ladies{
+      width: 80%;
+      margin: 0 auto;
+      display: inline-block;
+      position: relative;
+      margin-top: 20px;
+      img{
+        width: 100%;
+      }
+      & h2{
+        text-align: left;
+        font-size: $size30px;
+        font-weight: bold;
+        line-height: 50px;
+      }
+      .readmore{
+        z-index: 10;
+        font-family: "Times";
+        color: $textMainColor;
+        background-color: $siteButtonColor;
+        width: 50%;
+        height: 20%;
+        top: 90%;
+        right: -20px;
+        border: none;
+        border-radius: 2px;
+        position: absolute;
+        font-size: $size15px;
+      }
+      .readmore:hover{
+        background-color: #D3D3D3;
+        color: black;
+      }
+    }
+  }
+  // section works
+  .works{
+    width: 95%;
+    height: auto;
+    float: left;
+    margin-bottom: 5%;
+    & h2{
+      font-size: $size30px;
+      font-weight: bold;
+      text-align: left;
+      padding: 0 0 0 5%;
+      border-bottom: 1px solid;
+      font-family: "Meiryo",sans-serif;
+      position: relative;
+      & span{
+      font-size: $size10px;
+      color: $textDetailColor;
+      position: absolute;
+      top: 40%;
+      margin-left: 5%;
+      }
+    }
+  }
+  .main{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    .works-box{
+      width: 100%;
+      margin: 0 auto;
+      display: inlene-flex;
+      &__content{
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+        img{
+          width: 80%;
+        }
+        & h4{
+          font-size: $size15px;
+          font-family: "ヒラギノ明朝 Pro";
+          font-weight: bold;
+          width: 80%;
+          margin: 0 auto;
+          padding: 10px 0;
+          text-align: left;
+          letter-spacing: 1px;
+        }
+        & p{
+          font-size: $size8px;
+          font-family: "ヒラギノ明朝 Pro";
+          width: 80%;
+          margin: 0 auto;
+          letter-spacing: 1px;
+          line-height: 15px;
+          text-align: left;
+        }
+      }
+    }
+    .readmore{
+      font-family: "Times";
+      color: $textMainColor;
+      background-color: $siteButtonColor;
+      width: 50%;
+      height: 10%;
+      border: none;
+      border-radius: 2px;
+      font-size: $size15px;
+    }
+    .readmore:hover{
+      background-color: #D3D3D3;
+      color: black;
+    }
+  }
+  // section pickup
+	.bestselection-span, .newrelease-span {
+		margin-top: 20px;
+	}
+  .pickup{
+    width: 100%;
+    background-color: $siteContactColor;
+    border-top: 1px solid #DEDEDE;
+    padding: 15px 0 40px;
+    &-content{
+      width: 83.5%;
+      margin: 0 auto;
+      & h3{
+        font-size: $size30px;
+        padding-bottom: 20px;
+      }
+      .bestselection{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+        & p {
+          font-size: $size20px;
+          font-family: "ヒラギノ明朝 Pro";
+          padding-bottom: 20px;
+          text-align: left;
+          line-height: 30px;
+        }
+        & img {
+          width: 40%;
+          margin: 0 10px;
+        }
+        & a{
+          display: block;
+          font-size: $size15px;
+          font-family: Times;
+          padding: 30px 0 10px;
+        }
+      
+      }
+      .newrelease{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        & p {
+          font-size: $size20px;
+          font-family: "ヒラギノ明朝 Pro";
+          text-align: left;
+          padding-bottom: 25px;
+        }
+        & img {
+          width: 40%;
+          margin: 0 10px;
+        }
+        & a{
+          display: block;
+          font-size: $size15px;
+          font-family: Times;
+          padding: 30px 0 10px;
+        }
+
+      }
+    }
+  }
+
+  // section link
+  .link{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    &-nav{
+      width: 50%;
+      float: left;
+      box-sizing: border-box;
+      img{
+        width: 85%;
+        margin: 0 3%;
+      }
+      & p {
+        font-size: $size4px;
+        font-family: "ヒラギノ明朝 Pro";
+        padding: 5% 0;
+        text-align: center;
+      }
+    }
+  }
+  // section contack
+
+  .contact{
+    width: 100%;
+    height: auto;
+    background-color:  $siteContactColor;
+    padding: 30px 0;
+    & form{
+      width: 83.5%;
+      margin: 0 auto;
+      & h2{
+        font-family: "Garamond BE";
+        font-size: $size30px;
+        font-weight: bold;
+        padding-bottom: 10%;
+
+      }
+      & input {
+        width: 100%;
+        background-color: #F8F8F8;
+        border: none;
+        border-bottom: dashed 1px;
+        margin-bottom: 50px;
+        font-size: $size20px;
+        font-weight: bold;
+      }
+      & input::placeholder{
+        color: black;
+      }
+      & textarea{
+        width: 100%;
+        background-color: #F8F8F8;
+        border: none;
+        border-bottom: dashed 1px;
+        color: black;
+        margin-bottom: 20px;
+        padding-bottom: 150px;
+        font-size: $size20px;
+        font-weight: bold;
+      }
+      & textarea::placeholder{
+        color: black;
+      }
+      .wpcf7-submit{
+        color: $textMainColor;
+        background-color: $siteButtonColor;
+        width: 70%;
+        height: 10%;
+        border: none;
+        border-radius: 2px;
+        margin: 50px 0;
+        font-size: $size15px;
+      }
+      .wpcf7-submit:hover{
+        background-color: #D3D3D3;
+        color: black;
+      }
+    }
+  }
+  // section access
+  .access{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .about{
+      width: 100%;
+      display: inline-block;
+      float: left;
+      & h3{
+        text-align: left;
+        font-family: "ヒラギノ明朝 ProN";
+        font-family: $size14px;
+        padding-bottom: 20px;
+        font-size: $size14px;
+        & strong{
+          font-size: $size20px;
+        }
+      }
+      & table{
+        margin-bottom: 20px;
+      }
+      & tr{
+        border-bottom: dashed 1px;
+      }
+      & td{
+        padding: 15px 0;
+        font-size: $size10px;
+      }
+      & iframe {
+        display: inline-block;
+        float: left;
+      }
+      .map{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        iframe{
+          width: 100%;
+          margin: 0 auto;
+        }
+        .map-access{
+          width: 100%;
+          margin-top: 20px;
+          display: inline-block;
+          & h3{
+            font-size: $size14px;
+            font-family: "ヒラギノ明朝 ProN";
+            padding-bottom: 10px;
+          }
+          & p{
+            font-size: $size10px;
+            font-family: "ヒラギノ明朝 ProN";
+            text-align: left;
+            padding-bottom: 10px;
+            line-height: 1.5;
+          }
+        }
+      }
+      .map-detail{
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color: $siteContactColor;
+        border-radius: 2px;
+        & p{
+          font-size: $size10px;
+          font-family: "ヒラギノ明朝 ProN";
+          text-align: left;
+          padding: 5%;
+        }
+      }
+    }
+    .calender{
+      width: 100%;
+      margin: 0 auto;
+      display: inline-block;
+      text-align: left;
+      margin-top: 10%;
+      & h3{
+        text-align: left;
+        font-family: "ヒラギノ明朝 ProN";
+        font-family: $size14px;
+        padding-bottom: 20px;
+        & strong{
+          font-size: $size27px;
+        }
+      }
+      & p{
+        font-size: $size12px;
+        font-family: "ヒラギノ明朝 ProN";
+        padding-bottom: 15px;
+      }
+      &-img{
+        img{
+          width: 100%;
+          margin-bottom: 5%;
+        }
+      }
+      .announcement{
+        font-size: $size8px;
+      }
+      &-confirm{
+        color: $textMainColor;
+        background-color: $siteButtonColor;
+        width: 100%;
+        height: 10%;
+        margin: 0 auto;
+        border: none;
+        border-radius: 2px;
+        font-size: $size14px;
+        margin-bottom: 20px;
+        & img{
+          margin: 0 5px 5px;
+        }
+      }
+      .note{
+        width: 100%;
+        height: auto;
+        background-color: $siteContactColor;
+        margin: 10px 0;
+        & p{
+          font-size: $size10px;
+          font-family: "ヒラギノ明朝 ProN";
+          padding-top: 10px;
+          padding-left: 20px;
+          line-height: 1.5;
+        }
+      }
+      & table{
+        margin-bottom: 20px;
+      }
+      & tr{
+        border-bottom: dashed 1px;
+      }
+      & td{
+        padding: 15px 0;
+        font-size: $size11px;
+      }
+      .time{
+        width: 20%;
+      }
+    }
+    .reservation-button{
+      color: $textMainColor;
+      background-color: $siteButtonColor;
+      width: 100%;
+      height: 10%;
+      margin: 0 auto;
+      border: none;
+      border-radius: 2px;
+      font-size: $size14px;
+      margin-bottom: 20px;
+    }
+    .reservation-button:hover{
+        background-color: #D3D3D3;
+        color: black;
+      }
+  }
+}
+@media screen and (max-width: 600px){
+	.twitter {
+		margin-top: 20px!important;
+	}
+}
+@media screen and (max-width: 350px){
+	.twitter, .facebook {
+		height: 70%!important;
+	}
+}

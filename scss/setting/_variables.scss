@@ -1,0 +1,118 @@
+// Base layout
+$contentWidth: 1280px;
+$entryWidth: 320px;
+
+//color
+$siteButtonColor: #0B0B0B;
+$siteContactColor: #F8F8F8;
+$buttonMens: #102348;
+$buttonLadies: #D32352;
+$buttonWork: #D5D50B;
+$buttonBest: #0A7946;
+$buttonNew: #E63500;
+
+
+//全体の文字色
+$textMainColor: #FFFFFF;
+$textSubColor: #0B0B0B;
+$textDetailColor: #646464;
+$requiredColor: #F7C8D0;//入力必須項目で使用する色
+$contactFormMainColor: #515051;//コンタクトフォームで使用するメインの色：タイトルやテキスト
+$contactFormSubColor: #54575a;//コンタクトフォームで使用するサブの色：
+$contactFormTextColor: #565656;//コンタクトフォームで説明文に使う色
+
+// ブレークポイント設定
+$ip5: "only screen and (max-width:320px)";
+$ip: "only screen and (max-width:375px)";
+$xs: "only screen and (max-width:480px)";
+$sm: "only screen and (max-width:975px)";
+$ms: "only screen and (min-width:975px)";
+$sm-l: "only screen and (max-width:768px)";
+$tablet: "only screen and (min-width:768px) and (max-width:959px)";
+$pc:  "only screen and (min-width:1024px)";
+
+// Font Family
+$fontsBase:'EB Garamond',"ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+
+
+
+$spacing: 0.35em;
+$pc-margin:30px;
+
+// Font Size
+$size4px:0.248rem;
+$size6px:0.375rem;
+$size7px:0.438rem;
+$size8px:0.500rem;
+$size9px:0.563rem;
+$size10px:0.625rem;
+$size11px:0.688rem;
+$size12px:0.750rem;
+$size13px:0.813rem;
+$size14px:0.875rem;
+$size15px:0.938rem;
+$size16px:1.000rem;
+$size17px:1.063rem;
+$size18px:1.125rem;
+$size19px:1.188rem;
+$size20px:1.250rem;
+$size21px:1.313rem;
+$size22px:1.375rem;
+$size23px:1.438rem;
+$size24px:1.500rem;
+$size26px:1.625rem;
+$size27px:1.6875rem;
+$size28px:1.750rem;
+$size30px:1.875rem;
+$size31px:1.9375rem;
+$size32px:2.000rem;
+$size34px:2.125rem;
+$size36px:2.250rem;
+$size37px:2.3125rem;
+$size38px:2.375rem;
+$size40px:2.500rem;
+$size42px:2.625rem;
+$size43px:2.6875rem;
+$size44px:2.750rem;
+$size46px:2.875rem;
+$size47px:2.9375rem;
+$size48px:3.000rem;
+$size50px:3.125rem;
+$size52px:3.25rem;
+$size54px:3.375rem;
+$size56px:3.5rem;
+$size60px:3.750rem;
+$size64px:4.000rem;
+$size68px:4.250rem;
+$size70px:4.375rem;
+$size74px:4.625rem;
+$size76px:4.750rem;
+$size86px:5.375rem;
+$size180px:12.250rem;
+           
+$size244px:15.25rem;
+// Site Base & Key Colors
+$keyColor:#666;
+$keyColorDark:darken($keyColor,10%);
+$subColor: #e5ebf0;
+$baseColor:#93ccb0;
+
+// Main link color
+$aLinkColor: #000;
+$aLinkHover: #666;
+
+// Button and Banner Colors
+$btnDefaultColor:#53c8d7; //grey
+$btnDefaultColorHover:lighten($btnDefaultColor,5%); //lighter grey
+$btnPrimaryColor:#FFE300; // yellow
+$btnPrimaryColorHover:lighten($btnPrimaryColor,15%); // light yellow
+$btnPrimaryColorDark:darken($btnPrimaryColor,13%); // dark yellow
+$btnSuccessColor:#80CDE8; //turquoise
+$btnSuccessColorHover:lighten($btnSuccessColor,5%); //lighter turquoise
+$btnSuccessColorDark:darken($btnSuccessColor,13%); //lighter turquoise
+
+// path
+$image-path: "img/";
+
+// ピンク
+$pink: #E42473;

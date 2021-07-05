@@ -1,0 +1,75 @@
+@media screen and (min-width: 751px){
+
+/*display_none*/
+	.sp {
+    	display: none !important;
+    }
+  	.grossary-contents{
+  		width: 60%;
+  		margin: 0 auto;
+  		height: 1000px;
+  		& h1{
+  			text-align: left;
+	  		font-size: $size24px;
+	  		font-family: "ヒラギノ明朝 Pro";
+	  		border-top: double #313131;
+	  		padding: 20px 0;
+	  		margin-top: 100px;
+	  	}
+	  	.contents-main{
+	  		.content{
+	  			padding-top: 20px;
+	  			padding-bottom: 20px;
+	  			margin-top: 40px;
+	  			border-top: 1px solid #CBCBCB;
+	  			border-bottom: 1px solid #CBCBCB;
+	  			& h3{
+	  			  text-align: left;
+	  			}
+	  			& p{
+		  		  text-align: left;
+		  		  font-size: $size16px;
+		  		  font-family: "ヒラギノ明朝 Pro";
+		  		  margin-bottom: 20px;
+		  		}
+	  		}
+	  	}
+	}
+
+}
+@media screen and (max-width: 750px){
+	.grossary-contents{
+  		width: 90%;
+  		margin: 0 auto;
+  		height: auto;
+  		& h1{
+  			text-align: center;
+	  		font-size: $size24px;
+	  		font-family: "ヒラギノ明朝 Pro";
+	  		border-top: double #313131;
+	  		padding: 10% 0;
+	  		margin-top: 10%;
+	  	}
+	  	.contents-main{
+	  		text-align: center;
+	  		img{
+	  			width: 100%;
+	  		}
+	  		.content{
+	  			padding-top: 10%;
+	  			margin: 10% 0 20%;
+	  			border-top: 1px solid #CBCBCB;
+	  			border-bottom: 1px solid #CBCBCB;
+	  			& h3{
+	  			  text-align: left;
+	  			}
+	  			& p{
+		  		  text-align: left;
+		  		  font-size: $size16px;
+		  		  font-family: "ヒラギノ明朝 Pro";
+		  		  margin-bottom: 10%;
+		  		}
+	  		}
+	  	}
+	}
+}

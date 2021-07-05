@@ -1,0 +1,138 @@
+@media screen and (min-width: 751px){
+
+/*display_none*/
+	.sp {
+    	display: none !important;
+    }
+  	.brand-contents{
+  		width: 60%;
+  		margin: 0 auto;
+  		height: 2400px;
+  		& h1{
+  			text-align: left;
+	  		font-size: $size24px;
+	  		font-family: "ヒラギノ明朝 Pro";
+	  		border-top: double #313131;
+	  		padding: 20px 0;
+	  		margin-top: 100px;
+	  	}
+	  	.contents-main{
+	  		.content{
+	  			width: 100%;
+	  			padding-top: 20px;
+	  			padding-bottom: 20px;
+	  			margin-top: 40px;
+	  			border-bottom: 1px solid #CBCBCB;
+	  			text-align: left;
+	  			.brand-img{
+	  				display: inline-block;
+	  				float: left;
+	  				width: 40%;
+	  				& img{
+	  					margin-bottom: 15px;
+	  				}
+	  				& p{
+	  				  font-size: $size16px;
+	  				  font-family: "ヒラギノ明朝 Pro";
+	  				  line-height: 1.5;
+	  				}
+	  				& p:nth-child(3){
+	  					padding-bottom: 20px;
+	  				}
+	  				& span {
+	  				   color: #0D20B4;
+	  				}
+	  				& a{
+	  				  font-size: $size16px;
+	  				  font-family: "ヒラギノ明朝 Pro";
+	  				  color: #0D20B4;
+	  				  border-bottom: 1px solid #0D20B4;
+	  				}
+	  			}
+	  			.brand-detail{
+	  				display: inline-block;
+	  				width: 60%;
+	  				& h3{
+	  				  font-size: $size16px;
+	  				  font-family: "ヒラギノ明朝 Pro";
+	  				  padding-bottom: 10px;
+	  				}
+	  				& p{
+	  				  font-size: $size14px;
+	  				  font-family: "ヒラギノ明朝 Pro";
+	  				  color: #313131;
+	  				}
+	  			}
+	  			
+	  		}
+	  	}
+	}
+
+}
+@media screen and (max-width: 750px){
+	.brand-contents{
+		width: 90%;
+		height: auto;
+  		margin: 0 auto;
+  		& h1{
+  			text-align: center;
+	  		font-size: $size24px;
+	  		font-family: "ヒラギノ明朝 Pro";
+	  		border-top: double #313131;
+	  		padding: 5% 0 0;
+	  		margin-top: 5%;
+	  	}
+	  	.contents-main{
+	  		.content{
+	  			width: 100%;
+	  			padding-bottom: 5%;
+	  			margin: 5% 0 10%;
+	  			border-bottom: 1px solid #CBCBCB;
+	  			text-align: left;
+	  			.brand-img{
+	  				display: inline-block;
+	  				width: 100%;
+	  				height: auto;
+	  				text-align: center;
+	  				margin-bottom: 10%;
+	  				& img{
+	  					width: 100%;
+	  					margin-bottom: 15px;
+	  				}
+	  				& p{
+	  				  font-size: $size16px;
+	  				  font-family: "ヒラギノ明朝 Pro";
+	  				  line-height: 1.5;
+	  				}
+	  				& p:nth-child(3){
+	  					padding-bottom: 20px;
+	  				}
+	  				& span {
+	  				   color: #0D20B4;
+	  				}
+	  				& a{
+	  				  font-size: $size16px;
+	  				  font-family: "ヒラギノ明朝 Pro";
+	  				  color: #0D20B4;
+	  				  border-bottom: 1px solid #0D20B4;
+	  				}
+	  			}
+	  			.brand-detail{
+	  				display: inline-block;
+	  				width: 100%;
+	  				& h3{
+	  				  font-size: $size16px;
+	  				  font-family: "ヒラギノ明朝 Pro";
+	  				  padding-bottom: 10px;
+	  				}
+	  				& p{
+	  				  font-size: $size14px;
+	  				  font-family: "ヒラギノ明朝 Pro";
+	  				  color: #313131;
+	  				}
+	  			}
+	  		}
+	  	}
+	}
+}
+
